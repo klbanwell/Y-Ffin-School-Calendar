@@ -1,0 +1,59 @@
+<h1>School calendar & weekly to-do</h1>
+
+<div class="filters">
+  <strong>Filter by class:</strong><br><br>
+  <label><input type="checkbox" value="Nursery" checked> Nursery</label>
+  <label><input type="checkbox" value="Reception" checked> Reception</label>
+  <label><input type="checkbox" value="Year 1" checked> Year 1</label>
+  <label><input type="checkbox" value="Year 2" checked> Year 2</label>
+  <label><input type="checkbox" value="Year 3" checked> Year 3</label>
+  <label><input type="checkbox" value="Year 4" checked> Year 4</label>
+  <label><input type="checkbox" value="Year 5" checked> Year 5</label>
+  <label><input type="checkbox" value="Year 6" checked> Year 6</label>
+</div>
+
+<div class="layout">
+  <div id="calendar"></div>
+
+  <div class="todo">
+    <h2>To Do</h2>
+
+    <div class="todo-section">
+      <h3>This Week</h3>
+      <table id="thisWeek" class="todo-table">
+        <thead>
+          <tr>
+            <th>Date</th><th>Class</th><th>Event</th><th>Action Required</th><th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="todo-section">
+      <h3>Next Week</h3>
+      <table id="nextWeek" class="todo-table">
+        <thead>
+          <tr>
+            <th>Date</th><th>Class</th><th>Event</th><th>Action Required</th><th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="todo-section">
+      <h3>Important Deadlines</h3>
+      <table id="importantDeadlines" class="todo-table">
+        <thead>
+          <tr>
+            <th>Date</th><th>Class</th><th>Event</th><th>Action Required</th><th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <p><a href="#" id="subscribeCalendar">Subscribe to calendar</a></p>
+  </div>
+</div>
